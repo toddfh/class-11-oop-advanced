@@ -192,7 +192,7 @@ def test_set_repeated_items():
 
     d['language'] = 'Python'
     assert d.keys() == ['language']
-    assert d.values() == [1]
+    assert d.values() == ['Python']
 
     d['other'] = ('a', 'b', 'c')
     assert d.keys() == ['language', 'other']
